@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    background: #F9F9F9;
+    min-height: 100vh;
+    /* overflow-x: hidden; */
+}
+
+/* Header */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 100;
+}
+
+/* Logo */
+.logo{
+    font-size: 2rem;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 5vw;
+}
+
+/* GNB */
+.gnb a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.gnb a:hover, .gnb>a.active{
+    background: #359381;
+    color: #ffffff;
+}
+
+/* Title Section */
+.title_container{
+    width: 100%;
+}
+.title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vw;
+    overflow: hidden;
+}
+#title_label {
+    position: absolute;
+    font-size: 5vw;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.title img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+/* Main */
+.sec{
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
